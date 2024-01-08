@@ -27,3 +27,35 @@ particular event.
 event was recorded, and a unique identifier for that event.
 We have decided to include the metadata as a part of our data, as it could help provide context
 and categorize the type of event.
+
+### Table: Card Event (Entity)
+Columns (Attributes):
+id (Primary Key): Unique identifier for the card event.
+user_id: Foreign key referencing the user associated with the card event.
+created_by_name: Name of the creator.
+updated_at: Timestamp for when the event was last updated.
+created_at: Timestamp for when the event was created.
+active: Boolean indicating whether the card event is active.
+type: Type of event (inherited from metadata).
+event_at: Timestamp for when the event occurred (inherited from metadata).
+event_id: Unique identifier for the event (inherited from metadata).
+
+### Table: User Event (Entity)
+Columns (Attributes):
+Primary Key (id): Unique identifier for each user event.
+name: Name of the user. 
+address: Address of the user.
+job: Job of the user.
+score: A numerical score associated with the user. It could be a sort of rating or assessment.
+type: Type of event (inherited from metadata).
+event_at: Timestamp for when the event occurred (inherited from metadata).
+event_id: Unique identifier for the event (inherited from metadata).
+
+## Relationship
+The relationship between the user and card event is established through the user id in the card
+event table. This signifies that each card event is associated with a specific user.
+
+## Cardinality
+The relationship between both tables seems to be a one-to-many relationship. Each user (in user event
+table) can be associated with multiple card events (in card event table), but each card event is associated
+with only one user event.
