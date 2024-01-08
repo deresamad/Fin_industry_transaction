@@ -30,25 +30,42 @@ and categorize the type of event.
 
 ### Table: Card Event (Entity)
 Columns (Attributes):
+
 id (Primary Key): Unique identifier for the card event.
+
 user_id: Foreign key referencing the user associated with the card event.
+
 created_by_name: Name of the creator.
+
 updated_at: Timestamp for when the event was last updated.
+
 created_at: Timestamp for when the event was created.
+
 active: Boolean indicating whether the card event is active.
+
 type: Type of event (inherited from metadata).
+
 event_at: Timestamp for when the event occurred (inherited from metadata).
+
 event_id: Unique identifier for the event (inherited from metadata).
 
 ### Table: User Event (Entity)
 Columns (Attributes):
+
 Primary Key (id): Unique identifier for each user event.
+
 name: Name of the user. 
+
 address: Address of the user.
+
 job: Job of the user.
+
 score: A numerical score associated with the user. It could be a sort of rating or assessment.
+
 type: Type of event (inherited from metadata).
+
 event_at: Timestamp for when the event occurred (inherited from metadata).
+
 event_id: Unique identifier for the event (inherited from metadata).
 
 ## Relationship
