@@ -78,4 +78,4 @@ table) can be associated with multiple card events (in card event table), but ea
 with only one user event.
 
 ## ETL Diagram
-
+![](ETL_DIAGRAM.png)
