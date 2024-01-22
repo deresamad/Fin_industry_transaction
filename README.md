@@ -76,3 +76,6 @@ event table. This signifies that each card event is associated with a specific u
 The relationship between both tables seems to be a one-to-many relationship. Each user (in user event
 table) can be associated with multiple card events (in card event table), but each card event is associated
 with only one user event.
+
+## ETL Diagram
+
