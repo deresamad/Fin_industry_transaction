@@ -1,4 +1,4 @@
-# Financial_industry_transaction_Project
+# Financial_technology_transaction_Project
 ## Introduction
 ![](fintech_image_intro.jpg)
 This project is aimed at testing my knowledge of creating a relational database for storing fintech events data.The project contains a JSON file that consists of two seperate events: card events and user events. These are
