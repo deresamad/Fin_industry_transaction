@@ -81,7 +81,7 @@ with only one user event.
 ![](ETL_DIAGRAM.png)
 
 ## Insights
-![](ETL_DIAGRAM.png)
+![](fintech_dashboard.png)
 
 - Data for card event creation was collected between 11:08:50 PM and 11:30:32 PM, capturing card events that were created in 
 approx. 22 minutes.The busiest card event moment was 11:08:50 PM and 11:09:10 PM with 44 card events.
