@@ -79,3 +79,20 @@ with only one user event.
 
 ## ETL Diagram
 ![](ETL_DIAGRAM.png)
+
+## Insights
+![](ETL_DIAGRAM.png)
+
+- Data for card event creation was collected between 11:08:50 PM and 11:30:32 PM, capturing card events that were created in 
+approx. 22 minutes.The busiest card event moment was 11:08:50 PM and 11:09:10 PM with 44 card events.
+- Out of the number of generated card events, 3038 were active, and 2965 were inactive. Card events can be flagged as inactive due to 
+card deactivation, insufficient funds, security issues, expired cards or account closures
+- 617 card events had no recorded user ID. Out of these, 46.7% (288) were inactive, and 53.3% (329) were active.
+- The fintech company has the most users in North America followed by Asia and South America
+- The staff generating the most events, are Nancy Lopez, Charles Brown, Jennifer Brooks, Crystal Evans, and Allen Wells.
+- The users with the most generated card events are Gabriel Cortez, Cameron Howell, Allison Willis, Megan Smith, and Michael Wood.
+
+## Conclusion
+While the current data provides a foundation for valuable insights, it’s important to implement measures 
+ensuring the generation of accurate and reliable data from the system. This step will enhance the precision of the analysis and contribute to more 
+informed decision-making.
